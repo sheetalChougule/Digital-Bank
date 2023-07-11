@@ -1,0 +1,20 @@
+Digital-Bank.
+
+1. Download the files "digital-bank.js" and "transaction.txt"
+2. Open both the files in Visual Studio.
+3. You can add your commands in "transaction.txt" file as per the required transaction.
+   These are the commands available:
+
+    a. create_account: This command doesn't require any input value.
+        Ex: create_account
+    b. withdraw: This commands requires "account_number" and "amount" as input values.
+        Ex: withdraw 1 1000
+    c. deposit: This command requires "account_number" and "amount" as input values.
+        Ex: deposit 2 2000
+    d. display_balance: This command requires "account_number"
+        Ex: display_balance 1
+    e. display_bank_balance: This command doesn't require any input values.
+        Ex: display_bank_balance
+
+4. Run "digital-bank.js" and  in terminal give the command to load and access the "transaction.txt" file.
+        node digital-bank.js transaction.txt
